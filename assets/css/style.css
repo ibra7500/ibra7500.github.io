@@ -6,7 +6,7 @@ header {
     color: whitesmoke;
     height: 70px;
     margin: 0;
-    padding: 0;
+    padding: 10px 10px 0 0;
     background-color: #333;
     position: fixed;
     top: 0;
@@ -58,6 +58,65 @@ a{
 
 body{
     margin: 0px;
+}
+
+.main-wrapper {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+  line-height: 10px;
+}
+
+main h3 {
+  display: block;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.main-items-left {
+  float: left;
+  margin: 0 auto;
+}
+
+main .links {
+  font-size: 20px;
+  font-weight:  normal;
+}
+
+main .links img {    
+  width: 14px;
+  height: 14px;
+  transform: rotateY(180deg);
+}
+
+main .img-wrapper img {
+  padding: 40px 30px;
+  vertical-align: middle;
+  size-adjust: 15%;
+}
+
+.main-headline {
+  font-size: 40px;
+}
+
+main .studio-display {
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+main .mac-studio {
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+main p {
+  color: #98989c;
+}
+
+main .main-items-right {
+  float: right;
+  margin: 0 auto;
 }
 
 .top-wrapper{
@@ -152,7 +211,7 @@ padding-right: 20px;
     background-color: black;
   
     animation-name: changingbg;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     margin-top: 25px;
   }
@@ -173,7 +232,7 @@ padding-right: 20px;
     margin: 0;
   
     animation-name: changingtextmain;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
   }
   
